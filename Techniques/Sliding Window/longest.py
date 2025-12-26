@@ -14,6 +14,6 @@ class Solution:
             max_len = max(max_len, right - left + 1)
 
         return max_len
-arr=[3,1,2,1]
+arr=[1,-1,0]
 s=Solution()
-print(s.longestSubarray(arr,4))
+print(s.longestSubarray(arr,7))
