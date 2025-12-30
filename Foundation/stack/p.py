@@ -20,7 +20,7 @@ s=Stack()
 s.push(10)
 s.push(20)
 print(s.peek())
-s.pop()
-print(s.peek())
-print(s.isEmpty())
+print(s.pop())
+
+
 
