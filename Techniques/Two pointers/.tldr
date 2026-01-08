@@ -2183,9 +2183,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 833.713674808037,
-			"y": -1874.2182057503494,
-			"z": 0.6425296544030287,
+			"x": 2858.6919349562845,
+			"y": -2703.7077107550053,
+			"z": 0.8223305488359614,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -4021,12 +4021,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:d-pi1uX5aRa_w_OHP4jCy",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:FZXXIuUbsKGhQDXTgm7FB"
+				"shape:d-pi1uX5aRa_w_OHP4jCy"
 			],
-			"hoveredShapeId": null,
+			"hoveredShapeId": "shape:d-pi1uX5aRa_w_OHP4jCy",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -4655,6 +4655,57 @@
 			},
 			"parentId": "page:page",
 			"index": "b1MMRybPV",
+			"typeName": "shape"
+		},
+		{
+			"x": -2772.757304590234,
+			"y": 2728.855699996382,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FNO-OIlWtw4IRR3GkX-MK",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 443.6875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"marks": [
+										{
+											"type": "bold"
+										}
+									],
+									"text": "Input:"
+								},
+								{
+									"type": "text",
+									"text": " nums = [2,7,11,15], target = 9"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b3sHaXm7V",
 			"typeName": "shape"
 		},
 		{
@@ -5420,6 +5471,132 @@
 			},
 			"parentId": "page:page",
 			"index": "aIoR06JV",
+			"typeName": "shape"
+		},
+		{
+			"x": -2730.600699594096,
+			"y": 2821.2759654686733,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:d-pi1uX5aRa_w_OHP4jCy",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 483.19793701171875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "target=9"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "n=len(nums)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "res=[]"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "for i in range(n):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\tfor j in range(i+1,n):"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\tif nums[i]+nums[j]==target"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "\t\t\tres.append((i,j))"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "return res"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b3tGa5Ual",
 			"typeName": "shape"
 		},
 		{
@@ -8365,7 +8542,7 @@
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "cross",
+				"type": "default",
 				"rotation": 0
 			},
 			"isFocusMode": false,
